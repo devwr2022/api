@@ -1,9 +1,1 @@
-# Source - https://stackoverflow.com/a/67133443
-# Posted by Jorge Gongora
-# Retrieved 2026-04-22, License - CC BY-SA 4.0
 
-
-WORKDIR /usr/src/app
-COPY . .
-RUN pip install -r requirements.txt
-CMD [ "python", "./test.py" ]
